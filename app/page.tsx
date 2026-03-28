@@ -197,7 +197,7 @@ export default function Home() {
                 { name: '真鯛の炭火塩焼き', price: '1,280', note: '' },
                 { name: '大エビの炭火焼き', price: '1,480', note: '2尾' },
                 { name: '牡蠣の炭火焼き', price: '880', note: '2個' },
-                { name: '野菜の炭火焼き盛り', price: '680', note: '7種' },
+                { name: '野菜の炭火焼き盛り', price: '680', note: '4種' },
               ],
             },
             {
@@ -311,7 +311,7 @@ export default function Home() {
           </div>
           <div className="contact-grid">
             <div style={{ background: 'var(--surface)', padding: '40px 32px', borderTop: '2px solid var(--accent)' }}>
-              <h3 style={{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>お電話でのご予約</h3>
+              <h3 style9{{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>お電話でのご予約</h3>
               <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '24px', lineHeight: 1.8 }}>
                 ご予約はお電話が確実です。コース・飲み放題など、ご要望もお気軽にどうぞ。
               </p>
