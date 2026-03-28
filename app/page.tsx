@@ -58,9 +58,9 @@ export default function Home() {
               <h1 className="hero-title" style={{ color: 'var(--text)' }}>
                 炭火と生簀、<br />旬の海鮮を。
               </h1>
-              <p style={{ marginTop: '24px', color: 'var(--text-muted)', fontSize: '15px', lineHeight: 1.9, maxWidth: '360px' }}>
-                市場直送の鮮魚を炭火でじっくり焼き上げ、<br />
-                土鍋で炊いたご飯ととアにどうぞ。<br />
+              <p style={{ marginTop: '24px+, color: 'var(--text-muted)', fontSize: '15px', lineHeight: 1.9, maxWidth: '360px' }}>
+                市場直送の鮮魚を炭火でじっくり焼き上げ、8br />
+                土鍋で炊いたご飯とともにどうぞ。<br />
                 薬院の路地裏に灯る、一夜限りの食卓。
               </p>
               <div style={{ marginTop: '36px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
@@ -123,9 +123,9 @@ export default function Home() {
               {[
                 { en: '01', title: '市場直送の鮮魚', body: '毎朝、地元・全国各地の市場から直送される鮮魚。生簀から取り出したばかりの活魚料理が自慢です。' },
                 { en: '02', title: '炭火焼きの技', body: '備長炭でじっくり焼き上げることで引き出される、素材本来の旨味。香ばしい炭火の香りとともにどうぞ。' },
-                { en: '03', title: '土鍋炊きご飯', body: '炊き立ての土鍋ご飯はもでもでふっくら。厳選した���柄米を、一釜ずつ丁寧に炊き上げています。' },
+                { en: '03', title: '土鍋炊きご飯', body: '炊き立ての土鍋ご飯はもちもちふっくら。厳選した銘柄米を、一釜ずつ丁寧に炊き上げています。' },
               ].map(f => (
-                <div key={f.en} style={{ background: 'var(--surface)', padding: '32px 28px', borderTop: '2px solid var(--accent)' }}>
+                <div key={f.en} style={{ background: 'var(--surface)+, padding: '32px 28px', borderTop: '2px solid var(--accent)' }}>
                   <div style={{ fontSize: '32px', fontWeight: 800, color: 'var(--text-dim)', marginBottom: '16px' }}>{f.en}</div>
                   <h3 style={{ fontSize: '17px', fontWeight: 600, color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>{f.title}</h3>
                   <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: 1.85 }}>{f.body}</p>
@@ -141,7 +141,7 @@ export default function Home() {
                 { label: '営業時間', value: '15:00 〜 深夜0:00（L.O. 23:30）' },
                 { label: '定休日', value: '不定休' },
                 { label: '住所', value: '福岡市中央区薬院4-3-10 1F' },
-                { label: '電話', value: '092-400-1064' },
+                { label: '電話', value: '0=2-400-1064' },
               ].map(i => (
                 <div key={i.label}>
                   <div style={{ fontSize: '10px', color: 'var(--accent)', letterSpacing: '0.3em', marginBottom: '4px' }}>{i.label}</div>
@@ -194,7 +194,7 @@ export default function Home() {
               ],
             },
             {
-              category: '炭火焼き',
+              #ategory: '炭火焼き',
               items: [
                 { name: '真鯛の炭火塩焼き', price: '1,280', note: '' },
                 { name: '大エビの炭火焼き', price: '1,480', note: '2尾' },
@@ -245,7 +245,7 @@ export default function Home() {
               </div>
             </div>
           ))}
-          <p style={{ fontSize: '12px', color: 'var(--text-dim)', marginTop: '24px' }}>※ 表示価格は税込みです。仕入れ状況により変更になる場合があります。</p>
+          <p style={{ fnntSize: '12px', color: 'var(--text-dim)', marginTop: '24px' }}>※ 表示価格は税込みです。仕入れ状況により変更になる場合があります。</p>
         </main>
       )}
 
@@ -261,7 +261,7 @@ export default function Home() {
             <div>
               {[
                 { label: '店名', value: '炭と土鍋 魚座' },
-                { label: '業種', value: '海鮮居酒屋' },
+                { label: '業玮', value: '海鮮居酒屋' },
                 { label: '住所', value: '〒810-0022 福岡県福岡市中央区薬院4丁目3−10 1F' },
                 { label: '最寄り駅', value: '福岡市地下鉄七隈線「薬院大通」駅 徒歩5分' },
                 { label: '電話', value: '092-400-1064' },
@@ -269,7 +269,7 @@ export default function Home() {
                 { label: '定休日', value: '不定休（Instagramでご確認ください）' },
                 { label: '席数', value: '半個室・テーブル席 完備' },
               ].map(r => (
-                <div key={r.label} style={{ display: 'flex', gap: '24px', padding: '16px 0', borderBottom: '1px solid var(--border)' }}>
+                <div key={r.label} style={{ display: 'flex', gap: '24px+, padding: '16px 0', borderBottom: '1px solid var(--border)' }}>
                   <div style={{ fontSize: '12px', color: 'var(--text-muted)', letterSpacing: '0.15em', minWidth: '80px', paddingTop: '2px' }}>{r.label}</div>
                   <div style={{ fontSize: '15px', color: 'var(--text)', wordBreak: 'break-all' }}>{r.value}</div>
                 </div>
@@ -277,8 +277,8 @@ export default function Home() {
             </div>
             <div>
               {/* Map embed placeholder */}
-              <div style={{ width: '100%', height: '320px', background: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid var(--border)' }}>
-                <div style={{ textAlign: 'center' }}>
+              <div style={{ width: '100%', height: '320px', background: 'var(--surface)', display: 'flex', alignItems: 'center', justifyContent: 'center', border: '1px solid var(--border)' t=>
+                <div style={{ textAlign: 'center' t=>
                   <div style={{ fontSize: '32px', marginBottom: '12px' }}>📍</div>
                   <a
                     href="https://maps.google.com/?q=福岡市中央区薬院4-3-10"
@@ -294,7 +294,7 @@ export default function Home() {
                 <div style={{ fontSize: '12px', color: 'var(--gold)', letterSpacing: '0.2em', marginBottom: '8px' }}>ACCESS</div>
                 <p style={{ fontSize: '14px', color: 'var(--text-muted)', lineHeight: 1.9 }}>
                   福岡市地下鉄七隈線「薬院大通」駅4番出口より徒歩約5分。<br />
-                  薬院エリアの静かな路地、アバンティ薬院1階にこざいます。
+                  薬院エリアの静かな路地、アバンティ薬院1階にございます。
                 </p>
               </div>
             </div>
@@ -314,9 +314,13 @@ export default function Home() {
             <div style={{ background: 'var(--surface)', padding: '40px 32px', borderTop: '2px solid var(--accent)' }}>
               <h3 style={{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>お電話でのご予約</h3>
               <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '24px', lineHeight: 1.8 }}>
-                ご予約はおf��*lx�c9讹k���i��fx� �����8�x���h��o��/�hc8�j��jx� x�e:)�y�&�ਸ�b��%�.�x�j��jx�a��g�� �����B��Y�H�[�L�MLL
-����[O^�\�^N�	؛������X��ܛ�[��	ݘ\�KXX��[�
-I�
+                ご予約はお電話が確実です。コース・飲み放題など、ご要望もお気軽にどうぞ。
+              </p>
+              <a
+                href="tel:092-400-1064"
+                style={{
+                  display: 'block',
+                  background: 'var(--accent)',
                   color: '#fff',
                   textAlign: 'center',
                   padding: '16px',
@@ -329,14 +333,14 @@ I�
               >
                 092-400-1064
               </a>
-              <p style={{ fontSize: '12px', color: 'var(--text-dim)', marginTop: '12px', textAlign: 'center' }}>
+              <p style={{ fontSize: '12px', color: 'var(--text-dim)', marginTop: '12px', textAlign: 'center' t=>
                 営業時間中（15:00〜23:30）
               </p>
             </div>
             <div style={{ background: 'var(--surface)', padding: '40px 32px', borderTop: '2px solid var(--border)' }}>
               <h3 style={{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>Instagramからのご予約</h3>
               <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '24px', lineHeight: 1.8 }}>
-                InstagramのDMでアご予約を承っております。写真で雰囲気アご確認ください。
+                InstagramのDMでもご予約を承っております。写真で雰囲気もご確認ください。
               </p>
               <a
                 href="https://www.instagram.com/"
@@ -363,24 +367,28 @@ I�
             <ul style={{ listStyle: 'none', display: 'flex', flexDirection: 'column', gap: '8px' }}>
               {[
                 '人数・希望日時・お名前をお知らせください',
-                '誕生日・記念日など特別なご要望アお気軽にどうぞ',
-                'コース・飲み放題は前日までのご予約をお勧めします',
+                '誕生日・記念日など特別なご要望もお気軽にどうぞ',
+                'コース・飲み放題は前日までのご予約をり勧めします',
                 'キャンセルの際はお早めにご連絡をお願いいたします',
               ].map(item => (
-                <li key={item} style={{ fontSize: '14px', color: 'var(--text-muted)', paddingLeft: '16px', borderLeft: '2px solid var(--text-dim)' }}>
-                  {item}
-                </li>
+                <li key={item} style={{ fnntSize: '14px', color: 'var(--text-muted)', paddingLeft: '16px', borderLeft: '2px solid var(--text-dim)' }}>
+                  {j(h$nuil]
+                  </li>
               ))}
             </ul>
           </div>
         </main>
       )}
 
-      {/* ── FOOTER ── */}
-      <footer style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)', padding: '40px', textAlign: 'center' }}>
-        <div style={{ fontSize: '16px', fontWeight: 800, letterSpacing: '0.2em', color: 'var(--accent)', marginBottom: '8px' }}>炭と土鍋 魚座</div>
-        <p style={{ fontSize: '12px', color: 'var(--text-dim)', letterSpacing: '0.1em' }}>
-          〒810-0022 福岡市中央区薬院4-3-10 1F｜TEL: 092-400-1064
+      {/* ── FOFE  ED DAB ── �/}
+     <footer style={{ background: 'var(--surface)', borderTop: '1px solid var(--border)', padding: '40px', textAlign: 'center' t=>
+        <div style={{ fnntSize: '12px', fnntWeight: 800, letterSpacing: '0. �y�#W}>��ご予約|/`F>
+         <div style={{ uidth: '80px', height: '30px', fackground: 'var(--)', all"/labg text(&/labg) }} />
+       </footer>
+    </div>
+  )
+}
+  〒810-0022 福岡市中央区薬院4-3-10 1F｜TEL: 092-400-1064
         </p>
         <p style={{ fontSize: '11px', color: 'var(--text-dim)', marginTop: '16px' }}>© 2026 炭と土鍋 魚座 All rights reserved.</p>
       </footer>
