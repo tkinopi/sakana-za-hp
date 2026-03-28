@@ -243,7 +243,7 @@ export default function Home() {
               </div>
             </div>
           ))}
-          <p style={{ fontSize: '12px', color: 'var(--text-dim)', marginTop: '24px' }}>※ 表示価格は税込みです。</p>
+          <p style={{ fontSize: '12px', color: 'var(--text-dim)', marginTop: '24px' }}>※ 表示価格は税込みです。仕入れ状況により変更になる場合があります。</p>
         </main>
       )}
 
@@ -282,7 +282,6 @@ export default function Home() {
                     href="https://maps.google.com/?q=福岡市中央区薬院4-3-10"
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={          rel="noopener noreferrer"
                     style={{ fontSize: '14px', color: 'var(--accent)', textDecoration: 'none', letterSpacing: '0.1em' }}
                   >
                     Google マップで開く
@@ -311,7 +310,7 @@ export default function Home() {
           </div>
           <div className="contact-grid">
             <div style={{ background: 'var(--surface)', padding: '40px 32px', borderTop: '2px solid var(--accent)' }}>
-              <h3 style9{{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>お電話でのご予約</h3>
+              <h3 style={{ fontSize: '17px', color: 'var(--text)', marginBottom: '12px', letterSpacing: '0.1em' }}>お電話でのご予約</h3>
               <p style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '24px', lineHeight: 1.8 }}>
                 ご予約はお電話が確実です。コース・飲み放題など、ご要望もお気軽にどうぞ。
               </p>
